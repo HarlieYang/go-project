@@ -1,7 +1,7 @@
 <!--
  * @Author: HarlieYang
  * @Date: 2021-06-16 23:50:59
- * @LastEditTime: 2021-06-17 00:07:26
+ * @LastEditTime: 2021-07-07 00:35:29
  * @LastEditors: Please set LastEditors
  * @Description: 笔记
  * @FilePath: /go-main/go.md
@@ -19,3 +19,19 @@
 6. 函数可以返回多个值
 7. 新的创新： 切片、延时执行defer
 
+# 2. 开发环境搭建 mac
+- 安装go sdk https://studygolang.com/dl
+- 默认安装目录 /usr/local/go/bin    ./go version
+- 环境变量
+
+```
+vim /etc/profile
+
+export GOROOT="$HOME/go_env/go"
+export PATH="$PATH:$GOROOT/bin"
+export GOPATH="$HOME/goproject"
+
+source /etc/profile
+```
+
+# 3. 
